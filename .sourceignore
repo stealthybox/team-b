@@ -1,0 +1,4 @@
+# exclude flux v1 manifest generation files for flux v2
+**/flux-patch.yaml
+**/.flux.yaml
+**/.flux.yml
