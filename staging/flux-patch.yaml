@@ -7,7 +7,9 @@ metadata:
     flux.weave.works/tag.init: regexp:^3.*
     flux.weave.works/tag.podinfod: semver:~1.4
   name: podinfo
-  namespace: demo
+  # We keep the staging environment in our own namespace
+  # because our team has access to edit it.
+  namespace: team-b
 spec:
   template:
     spec:
